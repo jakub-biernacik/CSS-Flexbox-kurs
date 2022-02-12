@@ -16,26 +16,24 @@ body{
 .flex-container{
     display:flex;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .box{
     height: 100px;
     width: 320px;
-    
+    flex-grow: 1;
 }
 
 .one{
     background:red ;
-    flex-shrink: 2;
 }
 
 .two{
     background:green ;
-    flex-shrink: 6; 
 }
 
 .three{
     background:blue ;
-    flex-shrink: 10;
 }
 
